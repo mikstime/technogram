@@ -12,22 +12,22 @@ function App() {
   return (
       <Router>
         <Switch>
-            <Route exact path='/moments'>
+            <Route path='/moments'>
                 <Moments/>
             </Route>
-            <Route exact path='/search'>
+            <Route path='/search'>
                 <Search/>
             </Route>
-            <Route exact path='/home'>
+            <Route path='/home'>
                 <Home/>
             </Route>
-            <Route exact path='/events'>
+            <Route path='/events'>
                 <Events/>
             </Route>
-            <Route exact path='/auth'>
+            <Route path='/auth'>
                 <Auth/>
             </Route>
-            <Route exact path='/moments/create'>
+            <Route path='/moments/create'>
                 <CreateMoment/>
             </Route>
             <Route>
