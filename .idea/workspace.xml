@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9c1b53-39a3-44b9-99b7-ae338fa8fa47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Events/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Events/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569945318810</updated>
       <workItem from="1569945319947" duration="68000" />
-      <workItem from="1569945389026" duration="2380000" />
+      <workItem from="1569945389026" duration="2469000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1570019224123</created>
@@ -95,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570019343280</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Auth branch">
+      <created>1570019434532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570019434532</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create Moment Branch">
+      <created>1570019470457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570019470457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Auth branch" />
+    <MESSAGE value="Create Moment Branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Moment Branch" />
   </component>
 </project>
