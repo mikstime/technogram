@@ -4,12 +4,14 @@ import Name from './name'
 import FailWrapper from './withFails'
 import onInputChange from './onInputChange'
 import FailsHolder from './FailsHolder'
+import AuthButton from './AuthButton'
+
 export const EmailInput = Email
 export const PasswordInput = Password
 export const NameInput = Name
 export const withFails = FailWrapper
 
-export const FallibleEmailInput = FailWrapper(Email)
-export const FalliblePasswordInput = FailWrapper(Password)
-export const FallibleNameInput = FailWrapper(Name)
-export {onInputChange, FailsHolder}
+export const FEmailInput = FailWrapper(Email)
+export const FPasswordInput = FailWrapper(Password)
+export const FNameInput = FailWrapper(Name)
+export { onInputChange, FailsHolder, AuthButton }

@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { StyledValidatedInput as Input } from './ValidatedInput'
-import { NameRegEx } from '../../utils'
+import { NameRegEx } from '../utils'
 
 class NameInput extends Component {
 
     render() {
-        const {prefix = '', ...rest} = this.props
+        const {textValue = 'Name', ...rest} = this.props
         return(
             <Input
                 {...rest}
@@ -14,7 +13,7 @@ class NameInput extends Component {
                 inputProps={{
                     type : 'text',
                     name : 'name',
-                    placeholder : `${prefix} Name`
+                    placeholder : textValue
                 }}
             />
         )

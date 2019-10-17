@@ -40,11 +40,14 @@ class ValidatedInput extends Component {
         )
     }
     render() {
-        const {inputProps, validProps, invalidProps, ...style} = this.props
+        const {inputProps, validProps, invalidProps, children, ...style} = this.props
 
         return(
             <div {...style}>
-                <input {...inputProps} onChange={this.handleChange}/>
+                <label className={!this.state.input ? 'empty' : 'full'}>
+                    {children}
+                    <input {...inputProps} onChange={this.handleChange}/>
+                </label>
                 {
                     this.state.isValid ?
                         validProps && <div {...validProps}/> :

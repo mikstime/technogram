@@ -1,0 +1,62 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0px;
+}
+
+.auth-holder {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #FAFAFA;
+}
+
+.signup-holder, .login-holder {
+  width: 350px;
+  border: 1px solid #E6E6E6;
+  background: #FFFFFF;
+}
+
+.signup-holder {
+  display: flex;
+  padding: 40px 0 20px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.login-holder {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.login-holder p {
+  color: #262626;
+  font-size: 14px;
+  margin: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

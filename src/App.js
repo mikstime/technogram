@@ -1,5 +1,5 @@
-import React from 'react';
-import {Switch, BrowserRouter as Router, Link, Route} from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Moments from './Moments'
 import Search from './Search'
@@ -7,6 +7,7 @@ import Home from './Home'
 import Events from './Events'
 import Auth from './Auth'
 import CreateMoment from './CreateMoment'
+import './app.sass'
 
 function App() {
   return (

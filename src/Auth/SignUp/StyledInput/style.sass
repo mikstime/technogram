@@ -1,0 +1,71 @@
+@import "../../../CONSTANTS"
+.validated-input-focused
+  border: 1px solid #b2b2b2 !important
+
+.validated-input
+  background: $FORMS_BACKGROUND
+  border: 1px solid $FORMS_BORDER_COLOR
+  border-radius: 3px
+  color: $BLACK_COLOR
+  display: flex
+  vertical-align: baseline
+  align-items: center
+  font-size: 14px
+  flex-direction: row
+  position: relative
+  width: 100%
+  margin: 0 0 6px
+  label
+    display: flex
+    height : 36px
+    flex: 1 0 0
+    min-width: 0
+    input
+      border: none
+      outline: none
+      flex: 1 0 0
+      color : $BLACK_COLOR
+      background: transparent
+      overflow: hidden
+      padding: 9px 0 7px 8px
+      text-overflow: ellipsis
+      line-height: 18px
+      font-size: 16px
+    span
+      color : $FORMS_COLOR
+      font-size: 12px
+      height: 36px
+      left: 8px
+      line-height: 36px
+      overflow: hidden
+      pointer-events: none
+      position: absolute
+      right: 0
+      text-overflow: ellipsis
+      transform-origin: left
+      user-select: none
+      white-space: nowrap
+.invalid-input
+  height: 100%
+  padding-right: 8px
+  flex: 0 0 auto
+  vertical-align: middle
+  flex-direction: row
+  align-items: center
+  display: flex
+  position: relative
+  span
+    background-image: url("../../imgs/BUNDLE.png")
+    background-size: 410px 396px
+    background-position: -315px -296px
+    height : 22px
+    width : 22px
+.full, .empty
+  span
+    transition: transform ease-out .1s,-webkit-transform ease-out .1s
+.full
+  input
+    font-size: 12px !important
+    padding: 14px 0 2px 8px!important
+  span
+    transform: scale(.83333) translateY(-10px)

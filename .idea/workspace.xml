@@ -2,18 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9c1b53-39a3-44b9-99b7-ae338fa8fa47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Auth/SignIn/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/FailsHolder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/ValidatedInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/email.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/name.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/onInputChange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/password.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/withFails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/facebook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/facebook.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/facebook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/facebook.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/signup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/signup.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Buttons/signup.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/FullName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/Password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/PhoneOrEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/StyledInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/StyledInput/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/StyledInput/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/StyledInput/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/SignUp/Username.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Logo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Logo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Logo/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Logo/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/OrLine/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/OrLine/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/OrLine/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/OrLine/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Terms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Terms/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Terms/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Terms/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Title/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Title/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Title/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/Title/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Startpage/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/AuthButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/Templates/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auth/imgs/BUNDLE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CONSTANTS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CONSTANTS.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CONSTANTS.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/SignUp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/SignUp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Templates/Input/FailsHolder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/FailsHolder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Templates/Input/ValidatedInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/ValidatedInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Templates/Input/email.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Templates/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Templates/Input/name.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/name.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auth/Templates/Input/password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Templates/Input/password.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -42,6 +89,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Auth/Templates" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,6 +102,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Auth/SignUp/StyledInput" />
+      <recent name="$PROJECT_DIR$/src/Auth/Startpage/OrLine" />
+      <recent name="$PROJECT_DIR$/src/Auth/Startpage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Auth/Templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,7 +151,11 @@
       <option name="presentableId" value="Default" />
       <updated>1569945318810</updated>
       <workItem from="1569945319947" duration="68000" />
-      <workItem from="1569945389026" duration="3510000" />
+      <workItem from="1569945389026" duration="4115000" />
+      <workItem from="1570427967155" duration="1784000" />
+      <workItem from="1570545584451" duration="208000" />
+      <workItem from="1570545864546" duration="5679000" />
+      <workItem from="1571239124573" duration="14612000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1570019224123</created>
@@ -143,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570019618081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Routes changed">
+      <created>1570020692401</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570020692401</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Auth templates added">
+      <created>1570020823280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570020823280</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +231,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -168,6 +247,20 @@
     <MESSAGE value="Events Branch" />
     <MESSAGE value="Home Branch" />
     <MESSAGE value="Moments Branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moments Branch" />
+    <MESSAGE value="Routes changed" />
+    <MESSAGE value="Auth templates added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth templates added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Auth/index.js</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

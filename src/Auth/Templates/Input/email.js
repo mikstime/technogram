@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { StyledValidatedInput as Input } from './ValidatedInput'
-import { EmailRegEx } from '../../utils'
+import { EmailRegEx } from '../utils'
 
 class EmailInput extends Component {
 
 
     render() {
+        console.log(this.props.timesFailed)
         return(
             <Input
                 {...this.props}

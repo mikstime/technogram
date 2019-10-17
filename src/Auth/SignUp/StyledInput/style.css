@@ -1,0 +1,104 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0px;
+}
+
+.validated-input-focused {
+  border: 1px solid #b2b2b2 !important;
+}
+
+.validated-input {
+  background: #FAFAFA;
+  border: 1px solid #EFEFEF;
+  border-radius: 3px;
+  color: #262626;
+  display: flex;
+  vertical-align: baseline;
+  align-items: center;
+  font-size: 14px;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  margin: 0 0 6px;
+}
+.validated-input label {
+  display: flex;
+  height: 36px;
+  flex: 1 0 0;
+  min-width: 0;
+}
+.validated-input label input {
+  border: none;
+  outline: none;
+  flex: 1 0 0;
+  color: #262626;
+  background: transparent;
+  overflow: hidden;
+  padding: 9px 0 7px 8px;
+  text-overflow: ellipsis;
+  line-height: 18px;
+  font-size: 16px;
+}
+.validated-input label span {
+  color: #999999;
+  font-size: 12px;
+  height: 36px;
+  left: 8px;
+  line-height: 36px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  transform-origin: left;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.invalid-input {
+  height: 100%;
+  padding-right: 8px;
+  flex: 0 0 auto;
+  vertical-align: middle;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.invalid-input span {
+  background-image: url("../../imgs/BUNDLE.png");
+  background-size: 410px 396px;
+  background-position: -315px -296px;
+  height: 22px;
+  width: 22px;
+}
+
+.full span, .empty span {
+  transition: transform ease-out 0.1s, -webkit-transform ease-out 0.1s;
+}
+
+.full input {
+  font-size: 12px !important;
+  padding: 14px 0 2px 8px !important;
+}
+.full span {
+  transform: scale(0.83333) translateY(-10px);
+}
+
+/*# sourceMappingURL=style.css.map */
