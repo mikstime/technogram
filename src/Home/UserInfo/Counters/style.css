@@ -1,0 +1,41 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0;
+}
+
+.counters-holder {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.counters-holder .counter {
+  margin-left: 0;
+  font-size: 16px;
+  margin-right: 40px;
+  color: #262626;
+}
+.counters-holder .counter span {
+  font-size: 16px;
+}
+.counters-holder .counter span span {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
