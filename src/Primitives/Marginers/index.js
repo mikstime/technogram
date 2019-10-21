@@ -1,35 +1,42 @@
 import React from 'react'
 import './style.sass'
 
-const Margin20Left = props =>(
-    <div className='margin-l-20'>
-        {props.children}
+const Margin20LeftNF = props =>(
+    <div {...props} className='margin-l-20-nf'/>
+)
+const Margin30LeftNF = props =>(
+    <div {...props} className='margin-l-30-nf'/>
+)
+const Margin20RightNF = props =>(
+    <div {...props} className='margin-r-20-nf'/>
+)
+const Margin30RightNF = props =>(
+    <div {...props} className='margin-r-30-nf'>
     </div>
+)
+const Margin5RightNF = props =>(
+    <div {...props} className='margin-r-5-nf'/>
+)
+const Margin5LeftNF = props =>(
+    <div {...props} className='margin-l-5-nf'/>
+)
+const Margin20Left = props =>(
+    <div {...props} className='margin-l-20'/>
 )
 const Margin30Left = props =>(
-    <div className='margin-l-30'>
-        {props.children}
-    </div>
+    <div {...props} className='margin-l-30'/>
 )
 const Margin20Right = props =>(
-    <div className='margin-r-20'>
-        {props.children}
-    </div>
+    <div {...props} className='margin-r-20'/>
 )
 const Margin30Right = props =>(
-    <div className='margin-r-30'>
-        {props.children}
-    </div>
+    <div {...props} className='margin-r-30'/>
 )
 const Margin5Right = props =>(
-    <div className='margin-r-5'>
-        {props.children}
-    </div>
+    <div {...props} className='margin-r-5'/>
 )
 const Margin5Left = props =>(
-    <div className='margin-l-5'>
-        {props.children}
-    </div>
+    <div {...props} className='margin-l-5'/>
 )
 
 export {
@@ -38,5 +45,11 @@ export {
     Margin20Right,
     Margin30Right,
     Margin5Left,
-    Margin5Right
+    Margin5Right,
+    Margin5LeftNF,
+    Margin5RightNF,
+    Margin20LeftNF,
+    Margin20RightNF,
+    Margin30LeftNF,
+    Margin30RightNF,
 }

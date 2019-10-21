@@ -1,0 +1,61 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0;
+}
+
+.search-icon-holder {
+  left: 11px;
+  position: absolute;
+  top: 9px;
+  z-index: 2;
+}
+
+.search-clear-icon-holder {
+  position: absolute;
+  z-index: 3;
+  right: 5px;
+  top: 4px;
+}
+
+.search-input:placeholder-shown {
+  font-size: 16px;
+}
+
+.search-input {
+  font-size: 14px;
+  -webkit-appearance: none;
+  border: solid 1px #dbdbdb;
+  border-radius: 3px;
+  color: #262626;
+  outline: 0;
+  padding: 3px 10px 3px 26px;
+  z-index: 2;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.search-holder {
+  height: 28px;
+  flex: 0 1 auto;
+  min-width: 125px;
+  width: 215px;
+}
+
+/*# sourceMappingURL=style.css.map */
