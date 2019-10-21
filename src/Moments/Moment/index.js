@@ -11,15 +11,17 @@ export default class extends Component {
 
     render() {
         return(
-            <article>
-                <div>
-                    <UserInfo/>
-                    <Image/>
-                    <Comments/>
-                    <Metrics/>
-                    <LeaveComment/>
-                </div>
-            </article>
+            <div className='moments-holder'>
+                <article className='moment-article'>
+                    <div>
+                        <UserInfo/>
+                        <Image/>
+                        <Comments/>
+                        <Metrics/>
+                        <LeaveComment/>
+                    </div>
+                </article>
+            </div>
         )
     }
 }

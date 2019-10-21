@@ -19,4 +19,20 @@
   margin: 0 40px 0;
 }
 
+.moment-user-info {
+  display: flex;
+  box-sizing: border-box;
+  border-left: 1px solid #EFEFEF;
+  height: 72px;
+  padding: 16px;
+  right: 0;
+  width: 335px;
+  border-bottom: 1px solid #EFEFEF;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0;
+}
+
+.leave-comment-section {
+  display: flex;
+  margin-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  order: 5;
+  border-top: 1px solid #EFEFEF;
+  color: #999999;
+  flex-shrink: 0;
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 56px;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.leave-comment-body {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.leave-comment-body form {
+  flex-shrink: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+}
+.leave-comment-body form textarea {
+  flex-grow: 1;
+  height: 18px;
+  background: 0 0;
+  border: 0;
+  color: #262626;
+  font-size: inherit;
+  max-height: 80px;
+  outline: 0;
+  padding: 0;
+  resize: none;
+  line-height: 18px;
+}
+.leave-comment-body form button {
+  border: 0;
+  color: #3897f0;
+  display: inline;
+  position: relative;
+  appearance: none;
+  background: 0 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: auto;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -19,4 +19,22 @@
   margin: 0 40px 0;
 }
 
+.comments-holder {
+  order: 1;
+  overflow-x: hidden;
+  flex-shrink: 1;
+  min-height: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: absolute;
+  right: 0;
+  top: 78px;
+  width: 335px;
+}
+
 /*# sourceMappingURL=style.css.map */

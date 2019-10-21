@@ -19,4 +19,13 @@
   margin: 0 40px 0;
 }
 
+.moment-article {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 100%;
+  position: relative;
+}
+
 /*# sourceMappingURL=style.css.map */

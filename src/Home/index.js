@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
+import UserInfo from './UserInfo'
+import UserPosts from './UserPosts'
 
 export default class extends Component {
     render() {
         return(
-            <div>
-                Home
+            <div className='home-page'>
+                <UserInfo/>
+                <div className='user-posts'>
+                    <UserPosts/>
+                </div>
             </div>
         )
     }

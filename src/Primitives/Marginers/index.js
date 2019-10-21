@@ -21,10 +21,22 @@ const Margin30Right = props =>(
         {props.children}
     </div>
 )
+const Margin5Right = props =>(
+    <div className='margin-r-5'>
+        {props.children}
+    </div>
+)
+const Margin5Left = props =>(
+    <div className='margin-l-5'>
+        {props.children}
+    </div>
+)
 
 export {
     Margin20Left,
     Margin30Left,
     Margin20Right,
-    Margin30Right
+    Margin30Right,
+    Margin5Left,
+    Margin5Right
 }
