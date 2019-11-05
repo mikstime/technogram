@@ -4,7 +4,8 @@ import UserPosts from './UserPosts'
 import withStore from './Network/withStore'
 import withNetwork from './Network/withNetwork'
 import { UserPropTypes } from '../PropTypes'
-import { Link } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
+import './style.sass'
 
 class UserPage extends Component {
 
@@ -15,7 +16,7 @@ class UserPage extends Component {
         const {user} = this.props
         if(user)
             return(
-                <div className='home-page'>
+                <div className='user-page'>
                     <UserInfo user={user}/>
                     <div className='user-posts'>
                         <UserPosts posts={user.posts}/>
@@ -23,10 +24,8 @@ class UserPage extends Component {
                 </div>
             )
         return(
-            <div className='home-page'>
-                <Link to={'/'}>
-                No user was found
-                </Link>
+            <div className='user-page'>
+                <Redirect to={'/NotFound'}/>
             </div>
         )
     }

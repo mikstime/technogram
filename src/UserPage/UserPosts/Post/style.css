@@ -35,6 +35,15 @@
   overflow: hidden;
   padding-bottom: 100%;
 }
+.image-holder img {
+  object-fit: cover;
+  height: 100%;
+  user-select: none;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
 
 .image-wrapper {
   background-color: #efefef;

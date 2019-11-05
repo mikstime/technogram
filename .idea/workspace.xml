@@ -1,150 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee9c1b53-39a3-44b9-99b7-ae338fa8fa47" name="Default Changelist" comment="Header">
-      <change afterPath="$PROJECT_DIR$/src/AuthorizedApp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CONSTANTS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moments/Network/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moments/Network/withMomets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Navigation/Search/Network/withSearchRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypes/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypes/comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypes/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypes/likes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypes/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/temp/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/temp/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/temp/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/temp/testimage2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/temp/testimage3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/SearchItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/SearchItem/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/SearchItem/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/SearchItem/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StartPage/Network/withMoments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StartPage/Network/withStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnauthorizedApp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/Network/withNetwork.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/Network/withStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Pseudonym/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/images/testAvatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPage/index.js" afterDir="false" />
+    <list default="true" id="ee9c1b53-39a3-44b9-99b7-ae338fa8fa47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ImagePage/Network/withNetwork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImagePage/Network/withStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImagePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Navigation/Menu/Network/withStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotFound/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotFound/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserPage/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/Buttons/facebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Buttons/facebook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/Startpage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Startpage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/BaseCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/BaseCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/FollowersCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/FollowersCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/FollowingCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/FollowingCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/PostsCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/PostsCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Counters/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Counters/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Pseudonym/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Pseudonym/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Pseudonym/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Pseudonym/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Pseudonym/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Pseudonym/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Pseudonym/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Settings/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Settings/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Settings/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Settings/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Settings/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Settings/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/Settings/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/Settings/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserInfo/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserInfo/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Post/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Post/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Post/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Post/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Row/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Row/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Row/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/Row/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/UserPosts/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/images/BUNDLE.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/images/BUNDLE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/images/testAvatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/temp/testAvatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/Comment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Comments/Comment/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/Comment/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Comments/Comment/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/LeaveComment/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/LeaveComment/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/LeaveComment/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/LeaveComment/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Comments/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Image/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Image/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Image/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Image/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Metrics/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/Moment/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moments/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moments/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation/Search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/Icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Icons/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/Icons/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Icons/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/Icons/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/Icons/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/Icons/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Avatars/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Avatars/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Usernames/UserName/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Usernames/UserName/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Usernames/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Usernames/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Usernames/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Usernames/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Usernames/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Usernames/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Primitives/User/Usernames/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primitives/User/Usernames/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartPage/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Network/Facebook/withLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartPage/Header/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auth/Network/withSignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AuthorizedApp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AuthorizedApp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/Comment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Comments/Comment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/Comment/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Comments/Comment/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Comments/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Comments/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Comments/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Comments/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Comments/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Image/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Image/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Image/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Image/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Image/testimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Image/testimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LeaveComment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LeaveComment/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LeaveComment/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LeaveComment/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LeaveComment/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LikedBy/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LikedBy/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LikedBy/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/LikedBy/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/LikedBy/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Metrics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Metrics/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Metrics/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/Metrics/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/Metrics/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/UserInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/UserInfo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/UserInfo/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/UserInfo/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/UserInfo/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Moment/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moment/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Network/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/Network/withMomets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moments/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigation/Menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation/Menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PropTypes/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropTypes/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PropTypes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropTypes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StartPage/Network/withMoments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPage/Network/withMoments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StartPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartPage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPage/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartPage/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPage/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartPage/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPage/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Post/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/Row/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/UserPosts/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/UserPosts/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,17 +112,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Redux/temp" />
-      <recent name="$PROJECT_DIR$/src/Primitives/Icons" />
-      <recent name="$PROJECT_DIR$/src/Auth/Templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Navigation/Search" />
       <recent name="$PROJECT_DIR$/src/Redux/store" />
       <recent name="$PROJECT_DIR$/src/Primitives" />
       <recent name="$PROJECT_DIR$/src/Primitives/User/Avatars/Avatar" />
-      <recent name="$PROJECT_DIR$/src/Auth/SignUp/StyledInput" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Redux/temp" />
+      <recent name="$PROJECT_DIR$/src/Primitives/Icons" />
+      <recent name="$PROJECT_DIR$/src/Auth/Templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -247,7 +169,7 @@
       <workItem from="1570545864546" duration="5679000" />
       <workItem from="1571239124573" duration="55596000" />
       <workItem from="1571906721403" duration="31350000" />
-      <workItem from="1572902190021" duration="6472000" />
+      <workItem from="1572902190021" duration="16642000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1570019224123</created>
@@ -368,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571659732147</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="More stuff implemented">
+      <created>1572947728560</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572947728560</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +336,8 @@
     <MESSAGE value="Primitives" />
     <MESSAGE value="Moment page" />
     <MESSAGE value="Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header" />
+    <MESSAGE value="More stuff implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="More stuff implemented" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

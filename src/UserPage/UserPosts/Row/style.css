@@ -23,5 +23,12 @@
   flex-direction: row;
   margin-bottom: 28px;
 }
+.row-holder .post-mock {
+  margin-right: 28px;
+  flex: 1 0 0;
+}
+.row-holder .post-mock:last-child {
+  margin-right: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

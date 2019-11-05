@@ -8,11 +8,11 @@ const WithMoments = function (WrappedComponent) {
 
         componentDidMount() {
             //@TODO implement GET request later
-            try {
-                fetch(API_URL, {})
-            } catch ( e ) {
-                console.log(`Unable to fetch ${API_URL}`)
-            }
+            // try {
+            //     fetch(API_URL, {})
+            // } catch ( e ) {
+            //     console.log(`Unable to fetch ${API_URL}`)
+            // }
         }
 
         render() {

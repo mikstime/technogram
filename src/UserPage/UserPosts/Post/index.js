@@ -4,18 +4,20 @@ import './style.sass'
 import img from '../../images/testAvatar.png'
 import { PostPropTypes } from '../../../PropTypes'
 
-const UserPostPreview =  ({post})=> (
-    <div className='post-holder'>
-        <Link to={`/images/${post.id}`}>
-            <div className='image-wrapper'>
-                <div className='image-holder'>
-                    <img src={post.image.src} srcSet={post.image.srcSet} alt={post.image.alt}/>
+const UserPostPreview =  ({post})=> {
+    return (
+        <div className='post-holder'>
+            <Link to={ `/images/${ post.id }` }>
+                <div className='image-wrapper'>
+                    <div className='image-holder'>
+                        <img src={ post.image.src } srcSet={ post.image.srcSet } alt={ post.image.alt }/>
+                    </div>
+                    <div className='image-mask'/>
                 </div>
-                <div className='image-mask'/>
-            </div>
-        </Link>
-    </div>
-)
+            </Link>
+        </div>
+    )
+}
 UserPostPreview.propTypes = {
     post : PostPropTypes.isRequired
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import './style.sass'
-import Moment from '../Moments/Moment'
+import Moment from '../Moment'
 import withMoments from './Network/withMoments'
 import withStore from './Network/withStore'
 import PropTypes from 'prop-types'
+import { PostPropTypes } from '../PropTypes'
 
 const Moments =  ({posts}) => {
     return(
@@ -11,10 +12,8 @@ const Moments =  ({posts}) => {
         <div>
             {posts.map(p => (
                 <Moment
-                    comments={p.comments}
-                    user={p.user}
-                    image={p.image}
-                    likes={p.likes}
+                    key={p.id}
+                    {...p}
                 />))
             }
         </div>
@@ -22,33 +21,6 @@ const Moments =  ({posts}) => {
     )
 }
 Moments.propTypes = {
-    user : PropTypes.shape({
-        userName : PropTypes.string.isRequired,
-        avatar : PropTypes.string.isRequired,
-        pseudonym : PropTypes.shape.isRequired,
-    }).isRequired,
-    posts : PropTypes.arrayOf(PropTypes.shape({
-        user : PropTypes.shape({
-            userName : PropTypes.string.isRequired,
-            avatar : PropTypes.string.isRequired,
-            pseudonym : PropTypes.shape.isRequired,
-        }).isRequired,
-        likes : PropTypes.arrayOf(PropTypes.shape({
-            userName : PropTypes.string.isRequired,
-            avatar : PropTypes.string.isRequired,
-        })).isRequired,
-        comments : PropTypes.arrayOf(PropTypes.shape({
-            text : PropTypes.string.isRequired,
-            author : PropTypes.shape({
-                userName : PropTypes.string.isRequired,
-                avatar : PropTypes.string.isRequired,
-            }),
-            likes : PropTypes.arrayOf(PropTypes.shape({
-                userName : PropTypes.string.isRequired,
-                avatar : PropTypes.string.isRequired,
-            })),
-            date : PropTypes.string.isRequired,
-        })).isRequired,
-    })),
+    posts : PropTypes.arrayOf(PostPropTypes).isRequired,
 }
 export const WithNetwork = withStore(withMoments(Moments))
