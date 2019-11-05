@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Avatar from './Avatar'
 import './style.sass'
 
@@ -18,9 +17,15 @@ const SmallAvatar = ({alt, srcSet, ...rest}) => (
         <Avatar {...rest} alt={alt} srcSet={srcSet}/>
     </div>
 )
+const MicroAvatar = ({alt, src, srcSet, ...rest}) => (
+    <div className='avatar-micro'>
+        <Avatar {...rest} alt={alt} srcSet={srcSet}/>
+    </div>
+)
 
 export {
     LargeAvatar,
     MediumAvatar,
-    SmallAvatar
+    SmallAvatar,
+    MicroAvatar,
 }

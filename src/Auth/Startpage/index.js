@@ -6,6 +6,7 @@ import SignUp from '../SignUp'
 import OrLine from './OrLine'
 import Logo from './Logo'
 import Terms from './Terms'
+import withFacebookLogin from '../Network/Facebook/withLogin'
 
 class StartPage extends Component {
 
@@ -15,7 +16,7 @@ class StartPage extends Component {
                 <div className='signup-holder'>
                     <Logo/>
                     <Title/>
-                    <FbButton/>
+                    <FbButton onClick={this.props.onFacebookLogin}/>
                     <OrLine text='OR'/>
                     <SignUp/>
                     <Terms/>
@@ -29,4 +30,4 @@ class StartPage extends Component {
     }
 }
 
-export default StartPage
+export default withFacebookLogin(StartPage)

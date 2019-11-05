@@ -20,19 +20,28 @@
 }
 
 .moment-user-info {
-  display: flex;
-  box-sizing: border-box;
-  border-left: 1px solid #EFEFEF;
+  border-left: 1px solid #efefef;
+  border-bottom: 1px solid #EFEFEF;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
   height: 72px;
   padding: 16px;
   right: 0;
   width: 335px;
-  border-bottom: 1px solid #EFEFEF;
-  position: absolute;
-  top: 0;
-  align-items: center;
-  flex-direction: row;
-  flex-shrink: 0;
+}
+
+.user-info-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  margin-left: 16px;
+}
+
+.user-name-max-width {
+  max-width: 220px;
 }
 
 /*# sourceMappingURL=style.css.map */

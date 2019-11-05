@@ -1,18 +1,26 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './style.sass'
 
 import { SmallUserName as UserName } from '../../../Primitives/User/Usernames'
 import { SmallAvatar as Avatar } from '../../../Primitives/User/Avatars'
-import { Margin5Left, Margin5Right } from '../../../Primitives/Marginers'
-import img from '../Image/testimage.png'
 
-export default props => (
-    <header className='moment-user-info'>
-        <Margin5Right>
-            <Avatar srcSet={img} alt='Avatar'/>
-        </Margin5Right>
-        <Margin5Left>
-        <UserName userName='mikstime'/>
-        </Margin5Left>
+const UserInfo = ({userName, src, srcSet, alt, ...rest}) => (
+    <header {...rest} className='moment-user-info'>
+            <Avatar to={`/users/${userName}`} src={src} srcSet={srcSet} alt={alt}/>
+            <div className='user-info-wrapper'>
+                <div className='user-name-max-width'>
+                    <div className='username-small'>
+                        <UserName to={`/users/${userName}`} userName={userName}/>
+                    </div>
+                </div>
+            </div>
     </header>
 )
+UserInfo.propTypes = {
+    userName : PropTypes.string.isRequired,
+    srcSet : PropTypes.string.isRequired,
+    src : PropTypes.string.isRequired,
+    alt : PropTypes.string.isRequired,
+}
+export default UserInfo

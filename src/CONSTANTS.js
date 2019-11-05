@@ -1,0 +1,1 @@
+export const DOMAIN = `http://moment0.info`

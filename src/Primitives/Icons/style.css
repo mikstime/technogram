@@ -53,4 +53,40 @@
   display: block;
 }
 
+.comments-likes-icon {
+  background-size: 383px 342px;
+  background-position: -175px -268px;
+  background-image: url("./BUNDLE2.png");
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
+.comments-comments-icon {
+  background-size: 383px 342px;
+  background-position: -229px -223px;
+  background-image: url("./BUNDLE2.png");
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
+.comments-share-icon {
+  background-size: 383px 342px;
+  background-position: -175px -318px;
+  background-image: url("./BUNDLE2.png");
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
+.comments-save-icon {
+  background-size: 383px 342px;
+  background-position: -75px -318px;
+  background-image: url("./BUNDLE2.png");
+  height: 24px;
+  width: 24px;
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

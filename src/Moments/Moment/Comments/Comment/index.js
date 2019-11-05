@@ -5,17 +5,30 @@ import './style.sass'
 import { SmallAvatar } from '../../../../Primitives/User/Avatars'
 import { SmallUserName } from '../../../../Primitives/User/Usernames'
 
-const Comment = ({ userName, srcSet, alt, children, ...rest}) =>(
-    <div {...rest} className='comment-holder'>
-        <div className='avatar'>
-            <SmallAvatar srcSet={srcSet} alt={alt}/>
-        </div>
-        <div className='comment-body'>
-                <SmallUserName userName={userName}/>{" "}
-            <span>
-                {children}
-            </span>
-        </div>
+const Comment = ({ userName, srcSet, alt, time, children, ...rest}) =>(
+    <div {...rest} className='comment-holder' role="button">
+        <li>
+            <div className='comment-body'>
+                <div className='comment-main'>
+                    <div className='avatar'>
+                        <SmallAvatar to={`/users/${userName}`} srcSet={srcSet} alt={alt}/>
+                    </div>
+                    <div className='comment'>
+                            <SmallUserName to={`/users/${userName}`} userName={userName}/>
+                            <span>
+                                {children}
+                            </span>
+                            <div className='comment-time-wrapper'>
+                                <div className='comment-time-holder'>
+                                    <time className='comment-time'>
+                                        {time}
+                                    </time>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </li>
     </div>
 )
 Comment.propTypes = {

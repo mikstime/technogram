@@ -1,0 +1,53 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0;
+}
+
+.post-holder {
+  flex: 1 0 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-right: 28px;
+}
+.post-holder:last-child {
+  margin-right: 0;
+}
+
+.image-holder {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
+.image-wrapper {
+  background-color: #efefef;
+  display: block;
+  width: 100%;
+}
+
+.image-mask {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */

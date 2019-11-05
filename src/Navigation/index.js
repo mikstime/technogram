@@ -2,7 +2,7 @@ import React from 'react'
 import './style.sass'
 
 import Logo from './Logo'
-import Search from './Search'
+import { SearchWithNetwork as Search } from './Search'
 import Menu from './Menu'
 
 export default props => (
@@ -12,19 +12,15 @@ export default props => (
             <div className='nav-holder'>
                 <div className='nav-main'>
                     <div className='nav-logo'>
-                        <a>
+                        <a href='/'>
                             <Logo/>
                         </a>
                     </div>
                     <div className='nav-search'>
-                        <a>
-                            <Search/>
-                        </a>
+                        <Search/>
                     </div>
                     <div className='nav-menu'>
-                        <a>
-                            <Menu/>
-                        </a>
+                        <Menu/>
                     </div>
                 </div>
             </div>

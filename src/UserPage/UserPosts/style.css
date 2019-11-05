@@ -1,0 +1,38 @@
+.c-gray {
+  color: #999999;
+}
+
+.c-blue {
+  color: #3897f0;
+  cursor: pointer;
+}
+
+.bold-text, h2 {
+  text-align: center;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin: 0 40px 10px;
+}
+
+.def-margin {
+  margin: 0 40px 0;
+}
+
+.user-posts-article {
+  flex-grow: 1;
+}
+
+.user-posts {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.rows-holder {
+  flex-direction: column;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

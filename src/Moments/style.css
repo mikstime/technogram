@@ -19,7 +19,7 @@
   margin: 0 40px 0;
 }
 
-.moment-holder {
+.moments-holder {
   box-sizing: content-box;
   -webkit-box-pack: center;
   justify-content: center;
@@ -28,15 +28,6 @@
   flex-grow: 1;
   max-width: 935px;
   margin: 0 auto 16px;
-}
-
-.moments-holder {
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  display: flex;
-  flex-shrink: 0;
-  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -11,5 +11,11 @@
   height: 100%;
   border-radius: 50%;
 }
+.avatar-holder a {
+  text-decoration: none;
+}
+.avatar-holder a:visited {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

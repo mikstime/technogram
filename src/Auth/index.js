@@ -7,14 +7,6 @@ export default class extends Component {
         return(
             <Fragment>
                 <StartPage/>
-                {/*<Switch>*/}
-                {/*    <Route path='/auth/signin/'>*/}
-                {/*        <SignIn/>*/}
-                {/*    </Route>*/}
-                {/*    <Route path='/'>*/}
-                {/*        <SignUp/>*/}
-                {/*    </Route>*/}
-                {/*</Switch>*/}
             </Fragment>
         )
     }

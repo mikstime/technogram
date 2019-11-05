@@ -23,10 +23,32 @@
   border-radius: 50%;
 }
 
-.username-small h1 {
-  font-size: 14px;
-  line-height: 18px;
+h2 {
+  display: inline;
+}
+h2 a {
+  color: #262626 !important;
+  text-decoration: none;
+  margin-right: 4px;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 5px;
+  margin-left: -5px;
+}
+h2 a:visited {
+  color: #262626;
+  flex-grow: 0;
+  flex-shrink: 1;
+  text-decoration: none;
+}
+
+.username-small {
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .username-medium h1 {
